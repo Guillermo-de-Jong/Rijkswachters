@@ -1,0 +1,392 @@
+body{
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    margin: 0;
+}
+
+/*menu*/
+header{
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+nav {
+    display:flex;
+    justify-content:space-evenly;
+    background-color: #BC433F;
+    position: fixed;
+    bottom: 2rem;
+    width: 90%;
+    border-radius:1rem;
+  }
+  
+header a {
+    font-size: 0.8rem;
+    font-family: "copperplate", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #f2f2f2;
+    text-decoration: none;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+  }
+
+/*fonts*/
+H1{
+    font-size: 2rem;
+    font-family: "copperplate", serif;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 0.3rem;
+    color: #BC433F;
+}
+
+H2{
+    font-size: 1.8rem;
+    font-family: "copperplate", serif;
+    font-style: normal;
+    font-weight: 800;
+    color: #D1D1D1;
+}
+
+H3{
+    font-size: 1.2rem;
+    line-height: 0.5rem;
+    color: #BC433F;    
+    font-family: "copperplate", serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0.1rem;
+}
+
+h4{
+    font-size: 3.5rem;
+    font-family: "copperplate", sans-serif;
+    text-align: center;
+    line-height: 0.1rem;
+    color: #CDC0B0;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+}
+
+p{
+    font-size: 0.8rem;
+    font-family: "geneva", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #d8d8d8;
+}
+
+article p{
+    color: #1E1C24;
+    font-size: 0.5rem;
+    font-family: "geneva", sans-serif;
+    font-weight: 50;
+    font-style: normal;
+    line-height: 1rem;
+}
+
+.intro p{
+    color: #1E1C24;
+    font-size: 0.8rem;
+    font-family: "geneva", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+footer p{
+    color: #1E1C24;
+}
+
+/*sections-homepage*/
+.intro{
+    background-image: url(images/background-intro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 45rem;
+    padding: 1rem;
+    margin-top: 2.5rem;
+}
+
+.intro img{
+    width: 350px;
+    margin-top: -2rem;
+}
+
+.ontstaan {
+    padding: 1rem;
+    margin-top: -5rem;
+}
+
+.ontstaan img{
+    width: 334px;
+}
+
+.kopjes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rijkswachters{
+    background-image: url(images/kop-03.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding: 1rem;
+}
+
+.contact{
+    background-image: url(images/kop-04.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding: 1rem;
+}
+
+.form{
+    background-image: url(images/robot-contact.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 30rem;
+}
+
+/*css code scrollen +opmaak artikelen*/
+article{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin: 0.2rem;
+    width: 16rem;
+    height: 16rem;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    background-color:#d8d8d8;
+    margin-left: 1rem;
+}
+    
+article>div{
+    background-color:#E9D0AB;
+    width: 100%;
+    padding: 0.5rem;
+    padding-left: 1rem ;
+    border-radius: 1rem;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article a{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border: 0.1rem solid #BC433F;
+    border-radius:0.5rem;
+    color: #BC433F;
+    padding:0.5rem 1rem;
+    text-decoration: none;
+    height:3.5rem;
+    width:0.2rem;  
+}
+
+/*css code background images articles*/
+.babydot{
+    background-image: url(images/babydot.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}  
+
+.art-small{
+    background-image: url(images/small.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.art-medium{
+    background-image: url(images/medium.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+/*scrollen article*/
+.scroll_buttons {
+    overflow-x: scroll;
+    width: 100%;
+}
+     
+.scroll_buttons>div {
+    display: inline-flex;
+    flex-direction: row;
+    gap: 0.5em;
+}
+   
+/*Contact formulier*/
+input[type=text], select, textarea {
+    font-family: copperplate, serif;
+    font-style: normal;
+    font-weight: 800;
+    width: 100%;
+    padding: 0.7rem;
+    border: 1px solid #BC433F;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+      
+input[type=submit] {
+    font-family: copperplate, serif;
+    font-style: normal;
+    font-weight: 800;
+    background-color: #BC433F;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+      
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+      
+.container {
+    font-family: copperplate, serif;
+    font-style: normal;
+    font-weight: 800;
+    border-radius: 1rem;
+    padding-top: 12rem;
+    padding-left: 3.8rem;
+    padding-right: 3.8rem;
+}
+
+textarea{
+    height:70px;
+}
+
+/*footer*/
+      footer{
+        padding: 1rem;
+        background-color: #E9D0AB;
+        height: 7rem;
+}
+
+/*opmaak productpagina's*/
+.extrasmall{
+    background-image: url(images/robot-extra-small-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 375px;
+}
+
+.extrasmall div{
+    padding: 1rem;
+    padding-top: 17.5rem;
+}
+.extrasmall div h2{
+    color: #000;
+}
+
+.extrasmall div p{
+    color: #000;
+    margin-top: -1.5rem;
+}
+
+.extrasmall img{
+    height: 30px;
+    margin: 0.5rem;
+    position: fixed;
+}
+
+.small{
+    background-image: url(images/robot-small-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 375px;
+}
+
+.small div{
+    padding: 1rem;
+    padding-top: 17.5rem;
+}
+
+.small div h2{
+    color: #000;
+}
+
+.small div p{
+    color: #000;
+    margin-top: -1.5rem;
+}
+
+.small img{
+    height: 30px;
+    margin: 0.5rem;
+    position: fixed;
+}
+
+.medium{
+    background-image: url(images/robot-medium-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 375px;
+
+}
+.medium div{
+    padding: 1rem;
+    padding-top: 17.5rem;
+}
+
+.medium div h2{
+    color: #000;
+}
+
+.medium div p{
+    color: #000;
+    margin-top: -1.5rem;
+}
+
+.medium img{
+    height: 30px;
+    margin: 0.5rem;
+    position: fixed;
+}
+
+.specificatie{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.specificatie div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E9D0AB;
+    height: 2.5rem;
+    width: 6rem;
+    border-radius: 0.8rem;
+}
+
+.specificatie p{
+    color: #000;
+}
+
+.informatie{
+    padding: 1rem;
+    padding-bottom: 4rem;
+}
