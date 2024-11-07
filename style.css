@@ -75,7 +75,7 @@ h4{
 
 p{
     font-size: 0.8rem;
-    font-family: "geneva", sans-serif;
+    font-family: 'Geneva01', sans-serif;
     font-weight: 300;
     font-style: normal;
     color: #d8d8d8;
@@ -84,7 +84,7 @@ p{
 article p{
     color: #1E1C24;
     font-size: 0.5rem;
-    font-family: "geneva", sans-serif;
+    font-family: 'Geneva01', sans-serif;
     font-weight: 50;
     font-style: normal;
     line-height: 1rem;
@@ -93,7 +93,7 @@ article p{
 .intro p{
     color: #1E1C24;
     font-size: 0.8rem;
-    font-family: "geneva", sans-serif;
+    font-family: 'Geneva01', sans-serif;
     font-weight: 100;
     font-style: normal;
 }
